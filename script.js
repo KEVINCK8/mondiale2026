@@ -54,12 +54,12 @@ async function loadLeaderboard() {
     if (!tbody) return;
 
     try {
-        const resultsResponse = await fetch('data/RISULTATI.json');
+        const resultsResponse = await fetch(`data/RISULTATI.json?t=${Date.now()}`, { cache: 'no-store' });
         const results = await resultsResponse.json();
 
         const userData = await Promise.all(USERS.map(async (user) => {
             try {
-                const userResponse = await fetch(`data/${user}.json`);
+                const userResponse = await fetch(`data/${user}.json?t=${Date.now()}`, { cache: 'no-store' });
                 const predictions = await userResponse.json();
                 const stats = calculatePoints(predictions, results);
                 return { name: user, ...stats };
@@ -115,8 +115,8 @@ async function loadUserData(userName) {
 
     try {
         const [resultsRes, userRes] = await Promise.all([
-            fetch('data/RISULTATI.json'),
-            fetch(`data/${userName}.json`)
+            fetch(`data/RISULTATI.json?t=${Date.now()}`, { cache: 'no-store' }),
+            fetch(`data/${userName}.json?t=${Date.now()}`, { cache: 'no-store' })
         ]);
 
         const results = await resultsRes.json();
