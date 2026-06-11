@@ -1,0 +1,158 @@
+/* Custom Styles - FIFA World Cup 2026 Theme */
+:root {
+    --glass-bg: rgba(15, 23, 42, 0.8);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --fifa-red: #FF1744;
+    --fifa-blue: #2979FF;
+    --fifa-green: #00E676;
+    --fifa-purple: #D500F9;
+    --fifa-yellow: #EEFF41;
+    --fifa-orange: #FF9100;
+}
+
+body {
+    background-color: #020617;
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(213, 0, 249, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(41, 121, 255, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(0, 230, 118, 0.1) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, rgba(255, 23, 68, 0.1) 0px, transparent 50%);
+    background-attachment: fixed;
+    color: #f8fafc;
+    overflow-x: hidden;
+    animation: bgShift 20s infinite alternate ease-in-out;
+}
+
+@keyframes bgShift {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+}
+
+/* Page Transitions */
+.animate-in {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Header Text Animation */
+.text-transparent {
+    background-size: 200% auto;
+    animation: textGradient 4s linear infinite;
+}
+
+@keyframes textGradient {
+    to { background-position: 200% center; }
+}
+
+/* Glassmorphism */
+.glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+}
+
+/* Match Card Style (Inspired by Image) */
+.group-card {
+    background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+.group-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--fifa-green), var(--fifa-blue), var(--fifa-purple));
+}
+
+.group-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.group-header {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5rem;
+    background: linear-gradient(to bottom, var(--fifa-green), var(--fifa-blue), var(--fifa-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+}
+
+.match-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.2s ease;
+}
+
+.match-row:hover {
+    background: rgba(255, 255, 255, 0.05);
+    padding-left: 4px;
+}
+
+.score-box {
+    width: 28px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Table */
+.overflow-x-auto {
+    scrollbar-width: none;
+}
+.overflow-x-auto::-webkit-scrollbar {
+    display: none;
+}
+
+/* Ranking Medals */
+.medal-1 { background: linear-gradient(135deg, #ffd700, #ff8c00) !important; color: #000 !important; }
+.medal-2 { background: linear-gradient(135deg, #e2e8f0, #94a3b8) !important; color: #000 !important; }
+.medal-3 { background: linear-gradient(135deg, #cd7f32, #8b4513) !important; color: #fff !important; }
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .text-4xl { font-size: 2rem; }
+    .px-4 { padding-left: 0.75rem; padding-right: 0.75rem; }
+    .group-header { font-size: 1.1rem; }
+    .max-w-5xl { padding-left: 0.5rem; padding-right: 0.5rem; }
+    
+    /* Make table more compact on mobile */
+    td, th {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+
+/* Custom Animations */
+@keyframes pulse-border {
+    0% { border-color: rgba(0, 230, 118, 0.2); }
+    50% { border-color: rgba(41, 121, 255, 0.5); }
+    100% { border-color: rgba(0, 230, 118, 0.2); }
+}
+
+.pulse-border {
+    animation: pulse-border 3s infinite;
+}

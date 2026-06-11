@@ -1,0 +1,100 @@
+{
+    "groups": {
+        "A": [
+            {"home": "Messico", "away": "Sudafrica", "homeScore": 2, "awayScore": 1},
+            {"home": "Corea del Sud", "away": "Repubblica Ceca", "homeScore": 1, "awayScore": 2},
+            {"home": "Repubblica Ceca", "away": "Sudafrica", "homeScore": 2, "awayScore": 0},
+            {"home": "Messico", "away": "Corea del Sud", "homeScore": 2, "awayScore": 1},
+            {"home": "Sudafrica", "away": "Corea del Sud", "homeScore": 1, "awayScore": 1},
+            {"home": "Repubblica Ceca", "away": "Messico", "homeScore": 2, "awayScore": 2}
+        ],
+        "B": [
+            {"home": "Canada", "away": "Bosnia ed Erzegovina", "homeScore": 1, "awayScore": 1},
+            {"home": "Qatar", "away": "Svizzera", "homeScore": 1, "awayScore": 3},
+            {"home": "Svizzera", "away": "Bosnia ed Erzegovina", "homeScore": 2, "awayScore": 0},
+            {"home": "Canada", "away": "Qatar", "homeScore": 2, "awayScore": 1},
+            {"home": "Svizzera", "away": "Canada", "homeScore": 3, "awayScore": 2},
+            {"home": "Bosnia ed Erzegovina", "away": "Qatar", "homeScore": 2, "awayScore": 0}
+        ],
+        "C": [
+            {"home": "Brasile", "away": "Marocco", "homeScore": 3, "awayScore": 2},
+            {"home": "Haiti", "away": "Scozia", "homeScore": 1, "awayScore": 3},
+            {"home": "Scozia", "away": "Marocco", "homeScore": 2, "awayScore": 3},
+            {"home": "Brasile", "away": "Haiti", "homeScore": 4, "awayScore": 0},
+            {"home": "Marocco", "away": "Haiti", "homeScore": 3, "awayScore": 0},
+            {"home": "Scozia", "away": "Brasile", "homeScore": 1, "awayScore": 3}
+        ],
+        "D": [
+            {"home": "Stati Uniti", "away": "Paraguay", "homeScore": 2, "awayScore": 2},
+            {"home": "Australia", "away": "Turchia", "homeScore": 1, "awayScore": 3},
+            {"home": "Stati Uniti", "away": "Australia", "homeScore": 1, "awayScore": 0},
+            {"home": "Turchia", "away": "Paraguay", "homeScore": 2, "awayScore": 0},
+            {"home": "Turchia", "away": "Stati Uniti", "homeScore": 2, "awayScore": 0},
+            {"home": "Paraguay", "away": "Australia", "homeScore": 2, "awayScore": 0}
+        ],
+        "E": [
+            {"home": "Germania", "away": "Curacao", "homeScore": 5, "awayScore": 0},
+            {"home": "Costa d'Avorio", "away": "Ecuador", "homeScore": 3, "awayScore": 1},
+            {"home": "Germania", "away": "Costa d'Avorio", "homeScore": 3, "awayScore": 1},
+            {"home": "Ecuador", "away": "Curacao", "homeScore": 2, "awayScore": 0},
+            {"home": "Curacao", "away": "Costa d'Avorio", "homeScore": 0, "awayScore": 3},
+            {"home": "Ecuador", "away": "Germania", "homeScore": 1, "awayScore": 3}
+        ],
+        "F": [
+            {"home": "Olanda", "away": "Giappone", "homeScore": 2, "awayScore": 2},
+            {"home": "Svezia", "away": "Tunisia", "homeScore": 1, "awayScore": 1},
+            {"home": "Olanda", "away": "Svezia", "homeScore": 2, "awayScore": 1},
+            {"home": "Tunisia", "away": "Giappone", "homeScore": 1, "awayScore": 2},
+            {"home": "Tunisia", "away": "Olanda", "homeScore": 2, "awayScore": 3},
+            {"home": "Giappone", "away": "Svezia", "homeScore": 2, "awayScore": 1}
+        ],
+        "G": [
+            {"home": "Belgio", "away": "Egitto", "homeScore": 1, "awayScore": 1},
+            {"home": "Iran", "away": "Nuova Zelanda", "homeScore": 2, "awayScore": 1},
+            {"home": "Belgio", "away": "Iran", "homeScore": 2, "awayScore": 0},
+            {"home": "Nuova Zelanda", "away": "Egitto", "homeScore": 1, "awayScore": 2},
+            {"home": "Nuova Zelanda", "away": "Belgio", "homeScore": 0, "awayScore": 2},
+            {"home": "Egitto", "away": "Iran", "homeScore": 2, "awayScore": 0}
+        ],
+        "H": [
+            {"home": "Spagna", "away": "Capo Verde", "homeScore": 4, "awayScore": 0},
+            {"home": "Arabia Saudita", "away": "Uruguay", "homeScore": 1, "awayScore": 2},
+            {"home": "Spagna", "away": "Arabia Saudita", "homeScore": 3, "awayScore": 0},
+            {"home": "Uruguay", "away": "Capo Verde", "homeScore": 2, "awayScore": 0},
+            {"home": "Capo Verde", "away": "Arabia Saudita", "homeScore": 1, "awayScore": 3},
+            {"home": "Uruguay", "away": "Spagna", "homeScore": 1, "awayScore": 3}
+        ],
+        "I": [
+            {"home": "Francia", "away": "Senegal", "homeScore": 3, "awayScore": 1},
+            {"home": "Iraq", "away": "Norvegia", "homeScore": 1, "awayScore": 2},
+            {"home": "Francia", "away": "Iraq", "homeScore": 3, "awayScore": 0},
+            {"home": "Norvegia", "away": "Senegal", "homeScore": 2, "awayScore": 2},
+            {"home": "Norvegia", "away": "Francia", "homeScore": 1, "awayScore": 2},
+            {"home": "Senegal", "away": "Iraq", "homeScore": 2, "awayScore": 1}
+        ],
+        "J": [
+            {"home": "Argentina", "away": "Algeria", "homeScore": 3, "awayScore": 1},
+            {"home": "Austria", "away": "Giordania", "homeScore": 2, "awayScore": 0},
+            {"home": "Argentina", "away": "Austria", "homeScore": 3, "awayScore": 1},
+            {"home": "Giordania", "away": "Algeria", "homeScore": 1, "awayScore": 3},
+            {"home": "Algeria", "away": "Austria", "homeScore": 1, "awayScore": 1},
+            {"home": "Giordania", "away": "Argentina", "homeScore": 0, "awayScore": 4}
+        ],
+        "K": [
+            {"home": "Portogallo", "away": "Congo", "homeScore": 3, "awayScore": 0},
+            {"home": "Uzbekistan", "away": "Colombia", "homeScore": 0, "awayScore": 3},
+            {"home": "Portogallo", "away": "Uzbekistan", "homeScore": 3, "awayScore": 0},
+            {"home": "Colombia", "away": "Congo", "homeScore": 2, "awayScore": 2},
+            {"home": "Colombia", "away": "Portogallo", "homeScore": 2, "awayScore": 3},
+            {"home": "Congo", "away": "Uzbekistan", "homeScore": 1, "awayScore": 0}
+        ],
+        "L": [
+            {"home": "Inghilterra", "away": "Croazia", "homeScore": 2, "awayScore": 1},
+            {"home": "Ghana", "away": "Panama", "homeScore": 2, "awayScore": 1},
+            {"home": "Inghilterra", "away": "Ghana", "homeScore": 2, "awayScore": 1},
+            {"home": "Panama", "away": "Croazia", "homeScore": 1, "awayScore": 3},
+            {"home": "Panama", "away": "Inghilterra", "homeScore": 0, "awayScore": 4},
+            {"home": "Croazia", "away": "Ghana", "homeScore": 2, "awayScore": 2}
+        ]
+    }
+}
