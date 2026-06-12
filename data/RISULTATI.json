@@ -9,7 +9,7 @@
             {"home": "Repubblica Ceca", "away": "Messico", "homeScore": null, "awayScore": null}
         ],
         "B": [
-            {"home": "Canada", "away": "Bosnia ed Erzegovina", "homeScore": null, "awayScore": null},
+            {"home": "Canada", "away": "Bosnia ed Erzegovina", "homeScore": 1, "awayScore": 1},
             {"home": "Qatar", "away": "Svizzera", "homeScore": null, "awayScore": null},
             {"home": "Svizzera", "away": "Bosnia ed Erzegovina", "homeScore": null, "awayScore": null},
             {"home": "Canada", "away": "Qatar", "homeScore": null, "awayScore": null},
