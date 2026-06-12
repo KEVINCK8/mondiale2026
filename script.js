@@ -1,7 +1,7 @@
 const USERS = [
     "ROSARIO", "JONNY", "GIANCA", "ARNONE", "ROBI GATTO", "PERINO", "ITALO", "BALDO", 
     "CORONA", "BRAGHIN", "NICOLAS", "LEOTTA", "BITTO", "CLAUDIO", "EMBRICE", "MATTEO", 
-    "CAMPA", "CECCO", "NICOLA", "MARTINA", "ROBERTA", "SANOGO", "FLAVIO", "GUELI"
+    "CAMPA", "CECCO", "NICOLA", "MARTINA", "ROBERTA", "SANOGO", "FLAVIO", "GUELI", "MORANDINI"
 ];
 
 // Helper to determine match outcome
