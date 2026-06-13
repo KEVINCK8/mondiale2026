@@ -25,7 +25,7 @@
             {"home": "Scozia", "away": "Brasile", "homeScore": null, "awayScore": null}
         ],
         "D": [
-            {"home": "Stati Uniti", "away": "Paraguay", "homeScore": null, "awayScore": null},
+            {"home": "Stati Uniti", "away": "Paraguay", "homeScore": 4, "awayScore": 1},
             {"home": "Australia", "away": "Turchia", "homeScore": null, "awayScore": null},
             {"home": "Stati Uniti", "away": "Australia", "homeScore": null, "awayScore": null},
             {"home": "Turchia", "away": "Paraguay", "homeScore": null, "awayScore": null},
