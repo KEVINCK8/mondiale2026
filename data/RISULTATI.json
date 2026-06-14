@@ -33,7 +33,7 @@
             {"home": "Paraguay", "away": "Australia", "homeScore": null, "awayScore": null}
         ],
         "E": [
-            {"home": "Germania", "away": "Curacao", "homeScore": null, "awayScore": null},
+            {"home": "Germania", "away": "Curacao", "homeScore": 7, "awayScore": 1},
             {"home": "Costa d'Avorio", "away": "Ecuador", "homeScore": null, "awayScore": null},
             {"home": "Germania", "away": "Costa d'Avorio", "homeScore": null, "awayScore": null},
             {"home": "Ecuador", "away": "Curacao", "homeScore": null, "awayScore": null},
