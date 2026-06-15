@@ -181,6 +181,55 @@ async function loadUserData(userName) {
     }
 }
 
+// Load Results (results.html)
+async function loadResults() {
+    const container = document.getElementById('results-container');
+    if (!container) return;
+
+    try {
+        const response = await fetch(`data/RISULTATI.json?t=${Date.now()}`, { cache: 'no-store' });
+        const data = await response.json();
+
+        container.innerHTML = '';
+
+        for (const group in data.groups) {
+            const groupCard = document.createElement('div');
+            groupCard.className = 'group-card flex rounded-xl overflow-hidden animate__animated animate__fadeInUp';
+            
+            let matchesHtml = '';
+            data.groups[group].forEach((match) => {
+                const isFinished = match.homeScore !== null && match.awayScore !== null;
+                
+                matchesHtml += `
+                    <div class="match-row flex items-center justify-between p-3 border-b border-white/5 last:border-0">
+                        <div class="flex flex-col flex-1">
+                            <span class="text-xs font-bold text-slate-300">${match.home} v ${match.away}</span>
+                            <span class="text-[10px] text-slate-400 opacity-60 uppercase">Fase a Gironi</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="score-box font-black">${isFinished ? match.homeScore : ''}</div>
+                            <div class="score-box font-black">${isFinished ? match.awayScore : ''}</div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            groupCard.innerHTML = `
+                <div class="group-header flex items-center justify-center bg-black/20 px-2 py-4 border-r border-white/10 text-xs font-bold">
+                    GRUPPO ${group}
+                </div>
+                <div class="flex-1 flex flex-col justify-center py-2">
+                    ${matchesHtml}
+                </div>
+            `;
+            container.appendChild(groupCard);
+        }
+    } catch (e) {
+        console.error(e);
+        container.innerHTML = '<p class="col-span-full text-center text-red-400">Errore nel caricamento dei risultati.</p>';
+    }
+}
+
 // Initialize based on page
 if (document.getElementById('leaderboard-body')) {
     loadLeaderboard();

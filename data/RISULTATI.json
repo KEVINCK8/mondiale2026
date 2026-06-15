@@ -57,7 +57,7 @@
             {"home": "Egitto", "away": "Iran", "homeScore": null, "awayScore": null}
         ],
         "H": [
-            {"home": "Spagna", "away": "Capo Verde", "homeScore": null, "awayScore": null},
+            {"home": "Spagna", "away": "Capo Verde", "homeScore": 0, "awayScore": 0},
             {"home": "Arabia Saudita", "away": "Uruguay", "homeScore": null, "awayScore": null},
             {"home": "Spagna", "away": "Arabia Saudita", "homeScore": null, "awayScore": null},
             {"home": "Uruguay", "away": "Capo Verde", "homeScore": null, "awayScore": null},
