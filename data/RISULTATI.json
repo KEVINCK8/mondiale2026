@@ -49,7 +49,7 @@
             {"home": "Giappone", "away": "Svezia", "homeScore": null, "awayScore": null}
         ],
         "G": [
-            {"home": "Belgio", "away": "Egitto", "homeScore": null, "awayScore": null},
+            {"home": "Belgio", "away": "Egitto", "homeScore": 1, "awayScore": 1},
             {"home": "Iran", "away": "Nuova Zelanda", "homeScore": null, "awayScore": null},
             {"home": "Belgio", "away": "Iran", "homeScore": null, "awayScore": null},
             {"home": "Nuova Zelanda", "away": "Egitto", "homeScore": null, "awayScore": null},
