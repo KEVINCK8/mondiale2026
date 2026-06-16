@@ -65,7 +65,7 @@
             {"home": "Uruguay", "away": "Spagna", "homeScore": null, "awayScore": null}
         ],
         "I": [
-            {"home": "Francia", "away": "Senegal", "homeScore": null, "awayScore": null},
+            {"home": "Francia", "away": "Senegal", "homeScore": 3, "awayScore": 1},
             {"home": "Iraq", "away": "Norvegia", "homeScore": null, "awayScore": null},
             {"home": "Francia", "away": "Iraq", "homeScore": null, "awayScore": null},
             {"home": "Norvegia", "away": "Senegal", "homeScore": null, "awayScore": null},
