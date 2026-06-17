@@ -81,7 +81,7 @@
             {"home": "Giordania", "away": "Argentina", "homeScore": null, "awayScore": null}
         ],
         "K": [
-            {"home": "Portogallo", "away": "Congo", "homeScore": null, "awayScore": null},
+            {"home": "Portogallo", "away": "Congo", "homeScore": 1, "awayScore": 1},
             {"home": "Uzbekistan", "away": "Colombia", "homeScore": null, "awayScore": null},
             {"home": "Portogallo", "away": "Uzbekistan", "homeScore": null, "awayScore": null},
             {"home": "Colombia", "away": "Congo", "homeScore": null, "awayScore": null},
