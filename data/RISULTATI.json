@@ -3,7 +3,7 @@
         "A": [
             {"home": "Messico", "away": "Sudafrica", "homeScore": 2, "awayScore": 0},
             {"home": "Corea del Sud", "away": "Repubblica Ceca", "homeScore": 2, "awayScore": 1},
-            {"home": "Repubblica Ceca", "away": "Sudafrica", "homeScore": null, "awayScore": null},
+            {"home": "Repubblica Ceca", "away": "Sudafrica", "homeScore": 1, "awayScore": 1},
             {"home": "Messico", "away": "Corea del Sud", "homeScore": null, "awayScore": null},
             {"home": "Sudafrica", "away": "Corea del Sud", "homeScore": null, "awayScore": null},
             {"home": "Repubblica Ceca", "away": "Messico", "homeScore": null, "awayScore": null}
