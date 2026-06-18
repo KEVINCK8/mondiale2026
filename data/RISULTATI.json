@@ -11,7 +11,7 @@
         "B": [
             {"home": "Canada", "away": "Bosnia ed Erzegovina", "homeScore": 1, "awayScore": 1},
             {"home": "Qatar", "away": "Svizzera", "homeScore": 1, "awayScore": 1},
-            {"home": "Svizzera", "away": "Bosnia ed Erzegovina", "homeScore": null, "awayScore": null},
+            {"home": "Svizzera", "away": "Bosnia ed Erzegovina", "homeScore": 4, "awayScore": 1},
             {"home": "Canada", "away": "Qatar", "homeScore": null, "awayScore": null},
             {"home": "Svizzera", "away": "Canada", "homeScore": null, "awayScore": null},
             {"home": "Bosnia ed Erzegovina", "away": "Qatar", "homeScore": null, "awayScore": null}
