@@ -4,7 +4,7 @@
             {"home": "Messico", "away": "Sudafrica", "homeScore": 2, "awayScore": 0},
             {"home": "Corea del Sud", "away": "Repubblica Ceca", "homeScore": 2, "awayScore": 1},
             {"home": "Repubblica Ceca", "away": "Sudafrica", "homeScore": 1, "awayScore": 1},
-            {"home": "Messico", "away": "Corea del Sud", "homeScore": null, "awayScore": null},
+            {"home": "Messico", "away": "Corea del Sud", "homeScore": 1, "awayScore": 0},
             {"home": "Sudafrica", "away": "Corea del Sud", "homeScore": null, "awayScore": null},
             {"home": "Repubblica Ceca", "away": "Messico", "homeScore": null, "awayScore": null}
         ],
@@ -12,7 +12,7 @@
             {"home": "Canada", "away": "Bosnia ed Erzegovina", "homeScore": 1, "awayScore": 1},
             {"home": "Qatar", "away": "Svizzera", "homeScore": 1, "awayScore": 1},
             {"home": "Svizzera", "away": "Bosnia ed Erzegovina", "homeScore": 4, "awayScore": 1},
-            {"home": "Canada", "away": "Qatar", "homeScore": null, "awayScore": null},
+            {"home": "Canada", "away": "Qatar", "homeScore": 6, "awayScore": 0},
             {"home": "Svizzera", "away": "Canada", "homeScore": null, "awayScore": null},
             {"home": "Bosnia ed Erzegovina", "away": "Qatar", "homeScore": null, "awayScore": null}
         ],
