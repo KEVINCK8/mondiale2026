@@ -35,16 +35,16 @@
         "E": [
             {"home": "Germania", "away": "Curacao", "homeScore": 7, "awayScore": 1},
             {"home": "Costa d'Avorio", "away": "Ecuador", "homeScore": 1, "awayScore": 0},
-            {"home": "Germania", "away": "Costa d'Avorio", "homeScore": null, "awayScore": null},
-            {"home": "Ecuador", "away": "Curacao", "homeScore": null, "awayScore": null},
+            {"home": "Germania", "away": "Costa d'Avorio", "homeScore": 2, "awayScore": 1},
+            {"home": "Ecuador", "away": "Curacao", "homeScore": 0, "awayScore": 0},
             {"home": "Curacao", "away": "Costa d'Avorio", "homeScore": null, "awayScore": null},
             {"home": "Ecuador", "away": "Germania", "homeScore": null, "awayScore": null}
         ],
         "F": [
             {"home": "Olanda", "away": "Giappone", "homeScore": 2, "awayScore": 2},
             {"home": "Svezia", "away": "Tunisia", "homeScore": 5, "awayScore": 1},
-            {"home": "Olanda", "away": "Svezia", "homeScore": null, "awayScore": null},
-            {"home": "Tunisia", "away": "Giappone", "homeScore": null, "awayScore": null},
+            {"home": "Olanda", "away": "Svezia", "homeScore": 5, "awayScore": 1},
+            {"home": "Tunisia", "away": "Giappone", "homeScore": 0, "awayScore": 4},
             {"home": "Tunisia", "away": "Olanda", "homeScore": null, "awayScore": null},
             {"home": "Giappone", "away": "Svezia", "homeScore": null, "awayScore": null}
         ],
