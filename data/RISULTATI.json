@@ -75,7 +75,7 @@
         "J": [
             {"home": "Argentina", "away": "Algeria", "homeScore": 3, "awayScore": 0},
             {"home": "Austria", "away": "Giordania", "homeScore": 3, "awayScore": 1},
-            {"home": "Argentina", "away": "Austria", "homeScore": null, "awayScore": null},
+            {"home": "Argentina", "away": "Austria", "homeScore": 2, "awayScore": 0},
             {"home": "Giordania", "away": "Algeria", "homeScore": null, "awayScore": null},
             {"home": "Algeria", "away": "Austria", "homeScore": null, "awayScore": null},
             {"home": "Giordania", "away": "Argentina", "homeScore": null, "awayScore": null}
