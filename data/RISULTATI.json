@@ -67,8 +67,8 @@
         "I": [
             {"home": "Francia", "away": "Senegal", "homeScore": 3, "awayScore": 1},
             {"home": "Iraq", "away": "Norvegia", "homeScore": 1, "awayScore": 4},
-            {"home": "Francia", "away": "Iraq", "homeScore": null, "awayScore": null},
-            {"home": "Norvegia", "away": "Senegal", "homeScore": null, "awayScore": null},
+            {"home": "Francia", "away": "Iraq", "homeScore": 3, "awayScore": 0},
+            {"home": "Norvegia", "away": "Senegal", "homeScore": 3, "awayScore": 2},
             {"home": "Norvegia", "away": "Francia", "homeScore": null, "awayScore": null},
             {"home": "Senegal", "away": "Iraq", "homeScore": null, "awayScore": null}
         ],
@@ -76,7 +76,7 @@
             {"home": "Argentina", "away": "Algeria", "homeScore": 3, "awayScore": 0},
             {"home": "Austria", "away": "Giordania", "homeScore": 3, "awayScore": 1},
             {"home": "Argentina", "away": "Austria", "homeScore": 2, "awayScore": 0},
-            {"home": "Giordania", "away": "Algeria", "homeScore": null, "awayScore": null},
+            {"home": "Giordania", "away": "Algeria", "homeScore": 1, "awayScore": 2},
             {"home": "Algeria", "away": "Austria", "homeScore": null, "awayScore": null},
             {"home": "Giordania", "away": "Argentina", "homeScore": null, "awayScore": null}
         ],
