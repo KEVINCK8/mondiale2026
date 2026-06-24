@@ -84,15 +84,15 @@
             {"home": "Portogallo", "away": "Congo", "homeScore": 1, "awayScore": 1},
             {"home": "Uzbekistan", "away": "Colombia", "homeScore": 1, "awayScore": 3},
             {"home": "Portogallo", "away": "Uzbekistan", "homeScore": 5, "awayScore": 0},
-            {"home": "Colombia", "away": "Congo", "homeScore": null, "awayScore": null},
+            {"home": "Colombia", "away": "Congo", "homeScore": 1, "awayScore": 0},
             {"home": "Colombia", "away": "Portogallo", "homeScore": null, "awayScore": null},
             {"home": "Congo", "away": "Uzbekistan", "homeScore": null, "awayScore": null}
         ],
         "L": [
             {"home": "Inghilterra", "away": "Croazia", "homeScore": 4, "awayScore": 2},
             {"home": "Ghana", "away": "Panama", "homeScore": 1, "awayScore": 0},
-            {"home": "Inghilterra", "away": "Ghana", "homeScore": null, "awayScore": null},
-            {"home": "Panama", "away": "Croazia", "homeScore": null, "awayScore": null},
+            {"home": "Inghilterra", "away": "Ghana", "homeScore": 0, "awayScore": 0},
+            {"home": "Panama", "away": "Croazia", "homeScore": 0, "awayScore": 1},
             {"home": "Panama", "away": "Inghilterra", "homeScore": null, "awayScore": null},
             {"home": "Croazia", "away": "Ghana", "homeScore": null, "awayScore": null}
         ]
