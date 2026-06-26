@@ -29,24 +29,24 @@
             {"home": "Australia", "away": "Turchia", "homeScore": 2, "awayScore": 0},
             {"home": "Stati Uniti", "away": "Australia", "homeScore": 2, "awayScore": 0},
             {"home": "Turchia", "away": "Paraguay", "homeScore": 0, "awayScore": 1},
-            {"home": "Turchia", "away": "Stati Uniti", "homeScore": null, "awayScore": null},
-            {"home": "Paraguay", "away": "Australia", "homeScore": null, "awayScore": null}
+            {"home": "Turchia", "away": "Stati Uniti", "homeScore": 3, "awayScore": 2},
+            {"home": "Paraguay", "away": "Australia", "homeScore": 0, "awayScore": 0}
         ],
         "E": [
             {"home": "Germania", "away": "Curacao", "homeScore": 7, "awayScore": 1},
             {"home": "Costa d'Avorio", "away": "Ecuador", "homeScore": 1, "awayScore": 0},
             {"home": "Germania", "away": "Costa d'Avorio", "homeScore": 2, "awayScore": 1},
             {"home": "Ecuador", "away": "Curacao", "homeScore": 0, "awayScore": 0},
-            {"home": "Curacao", "away": "Costa d'Avorio", "homeScore": null, "awayScore": null},
-            {"home": "Ecuador", "away": "Germania", "homeScore": null, "awayScore": null}
+            {"home": "Curacao", "away": "Costa d'Avorio", "homeScore": 0, "awayScore": 2},
+            {"home": "Ecuador", "away": "Germania", "homeScore": 2, "awayScore": 1}
         ],
         "F": [
             {"home": "Olanda", "away": "Giappone", "homeScore": 2, "awayScore": 2},
             {"home": "Svezia", "away": "Tunisia", "homeScore": 5, "awayScore": 1},
             {"home": "Olanda", "away": "Svezia", "homeScore": 5, "awayScore": 1},
             {"home": "Tunisia", "away": "Giappone", "homeScore": 0, "awayScore": 4},
-            {"home": "Tunisia", "away": "Olanda", "homeScore": null, "awayScore": null},
-            {"home": "Giappone", "away": "Svezia", "homeScore": null, "awayScore": null}
+            {"home": "Tunisia", "away": "Olanda", "homeScore": 1, "awayScore": 3},
+            {"home": "Giappone", "away": "Svezia", "homeScore": 1, "awayScore": 1}
         ],
         "G": [
             {"home": "Belgio", "away": "Egitto", "homeScore": 1, "awayScore": 1},
