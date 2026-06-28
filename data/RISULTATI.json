@@ -77,24 +77,24 @@
             {"home": "Austria", "away": "Giordania", "homeScore": 3, "awayScore": 1},
             {"home": "Argentina", "away": "Austria", "homeScore": 2, "awayScore": 0},
             {"home": "Giordania", "away": "Algeria", "homeScore": 1, "awayScore": 2},
-            {"home": "Algeria", "away": "Austria", "homeScore": null, "awayScore": null},
-            {"home": "Giordania", "away": "Argentina", "homeScore": null, "awayScore": null}
+            {"home": "Algeria", "away": "Austria", "homeScore": 3, "awayScore": 3},
+            {"home": "Giordania", "away": "Argentina", "homeScore": 1, "awayScore": 3}
         ],
         "K": [
             {"home": "Portogallo", "away": "Congo", "homeScore": 1, "awayScore": 1},
             {"home": "Uzbekistan", "away": "Colombia", "homeScore": 1, "awayScore": 3},
             {"home": "Portogallo", "away": "Uzbekistan", "homeScore": 5, "awayScore": 0},
             {"home": "Colombia", "away": "Congo", "homeScore": 1, "awayScore": 0},
-            {"home": "Colombia", "away": "Portogallo", "homeScore": null, "awayScore": null},
-            {"home": "Congo", "away": "Uzbekistan", "homeScore": null, "awayScore": null}
+            {"home": "Colombia", "away": "Portogallo", "homeScore": 0, "awayScore": 0},
+            {"home": "Congo", "away": "Uzbekistan", "homeScore": 3, "awayScore": 1}
         ],
         "L": [
             {"home": "Inghilterra", "away": "Croazia", "homeScore": 4, "awayScore": 2},
             {"home": "Ghana", "away": "Panama", "homeScore": 1, "awayScore": 0},
             {"home": "Inghilterra", "away": "Ghana", "homeScore": 0, "awayScore": 0},
             {"home": "Panama", "away": "Croazia", "homeScore": 0, "awayScore": 1},
-            {"home": "Panama", "away": "Inghilterra", "homeScore": null, "awayScore": null},
-            {"home": "Croazia", "away": "Ghana", "homeScore": null, "awayScore": null}
+            {"home": "Panama", "away": "Inghilterra", "homeScore": 0, "awayScore": 2},
+            {"home": "Croazia", "away": "Ghana", "homeScore": 2, "awayScore": 1}
         ]
     }
 }
